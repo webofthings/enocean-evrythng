@@ -15,5 +15,3 @@ watcher.watchDevices(["test1"],
 		 console.log("Got " + data);
 		 engine.updateThngProperty(thngOptions.thng, thngOptions.property, data);
 	});
-
-//
