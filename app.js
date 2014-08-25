@@ -3,10 +3,10 @@ var engineOptions = {
 };
 
 var thngOptions = {
-	thng: 'UdQKcnkN8VpwdyN2QDNK7mnm',
-	property: 'test'
+	thng: 'UUQphE3H8e5wDs8chypknpwb',
+	property: 'doorstate'
 }
 
 var engine = require('./libs/engine')(engineOptions);
 
-engine.updateThngProperty(thngOptions.thng, thngOptions.property, "3.141");
+engine.updateThngProperty(thngOptions.thng, thngOptions.property, "open");
