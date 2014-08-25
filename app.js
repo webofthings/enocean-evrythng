@@ -3,8 +3,8 @@ var engineOptions = {
 };
 
 var thngOptions = {
-	thng: 'UdQKcnkN8VpwdyN2QDNK7mnm',
-	property: 'test'
+	thng: 'UUQphE3H8e5wDs8chypknpwb',
+	property: 'doorstate'
 }
 
 var engine = require('./libs/engine')(engineOptions),
