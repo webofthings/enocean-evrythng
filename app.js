@@ -7,6 +7,13 @@ var thngOptions = {
 	property: 'test'
 }
 
-var engine = require('./libs/engine')(engineOptions);
+var engine = require('./libs/engine')(engineOptions),
+	watcher = require('./libs/fhemWatcher');
 
-engine.updateThngProperty(thngOptions.thng, thngOptions.property, "3.141");
+watcher.watchDevices(["test1"], 
+	function(data){
+		 console.log("Got " + data);
+		 engine.updateThngProperty(thngOptions.thng, thngOptions.property, data);
+	});
+
+//
