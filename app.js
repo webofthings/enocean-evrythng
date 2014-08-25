@@ -10,7 +10,7 @@ var thngOptions = {
 var engine = require('./libs/engine')(engineOptions),
 	watcher = require('./libs/fhemWatcher');
 
-watcher.watchDevices(["test1"], 
+watcher.watchDevices(["EnO_contact_01812812-2014"], 
 	function(data){
 		 console.log("Got " + data);
 		 engine.updateThngProperty(thngOptions.thng, thngOptions.property, data);
