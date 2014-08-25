@@ -7,9 +7,6 @@
 		"node": "0.10.x"
 	},
 	"dependencies": {
-		"nconf": "0.6.9",
-		"step": "0.0.5",
-		"lodash": "2.4.1",
 		"evrythng": "2.0.3",
 		"nodemon": "1.2.1",
 		"tail" : "0.3.8"
